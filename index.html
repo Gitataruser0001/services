@@ -108,5 +108,20 @@
             });
         });
     </script>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+     <script>
+  ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+  });
+  
+  ScrollReveal().reveal('.heading', { origin: 'top' });
+  
+  ScrollReveal().reveal('.long-box, .short-box,.thumbnail-box', { origin: 'bottom' });
+</script>
 </body>
 </html>
